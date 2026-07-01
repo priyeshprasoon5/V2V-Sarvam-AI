@@ -12,12 +12,12 @@
   "dependencies": {
     "@fastify/websocket": "^10.0.1",
     "dotenv": "^16.4.5",
-    "fastify": "^4.28.1"
+    "fastify": "^4.28.1",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.2"
   },
   "devDependencies": {
     "@types/node": "^20.14.9",
-    "@types/ws": "^8.18.1",
-    "tsx": "^4.16.0",
-    "typescript": "^5.5.2"
+    "@types/ws": "^8.18.1"
   }
 }
