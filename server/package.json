@@ -1,0 +1,23 @@
+{
+  "name": "v2v-ai-server",
+  "version": "1.0.0",
+  "description": "Voice-to-Voice AI Gateway Server",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@fastify/websocket": "^10.0.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.2"
+  }
+}
